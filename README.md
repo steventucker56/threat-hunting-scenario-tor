@@ -101,75 +101,82 @@ DeviceNetworkEvents
 ## Chronological Event Timeline 
 
 2025-08-25 11:05:43 (UTC)
-On device st-mde-vm, user stwlab1 had a file event involving
+
+-On device st-mde-vm, user stwlab1 had a file event involving
  tor-browser-windows-x86_64-portable-14.5.6.exe in the Downloads folder.
 
 
-Action: File renamed, marking the beginning of Tor-related activity.
+-Action: File renamed, marking the beginning of Tor-related activity.
 
 
 
 2025-08-25 11:09:51 (UTC)
-Two file events recorded for tor-browser-windows-x86_64-portable-14.5.6.exe.
+
+-Two file events recorded for tor-browser-windows-x86_64-portable-14.5.6.exe.
 
 
-Action: File deleted twice from the Downloads folder.
+-Action: File deleted twice from the Downloads folder.
 
 
-Indicates cleanup after download, possibly due to the installer moving itself or being removed post-execution.
+-Indicates cleanup after download, possibly due to the installer moving itself or being removed post-execution.
 
 
 
 2025-08-25 11:11:32 (UTC)
-A process creation event shows that user stwlab1 executed the Tor Browser installer:
+
+-A process creation event shows that user stwlab1 executed the Tor Browser installer:
  tor-browser-windows-x86_64-portable-14.5.6.exe /S
 
 
-This was launched from the Downloads directory with the silent install flag (/S), meaning installation occurred in the background without user prompts.
+-This was launched from the Downloads directory with the silent install flag (/S), meaning installation occurred in the background without user prompts.
 
 
 
 2025-08-25 11:11:55 (UTC)
-A new file named tor.txt was created in the Tor Browser\Browser\Tor folder under the user’s Desktop.
+
+-A new file named tor.txt was created in the Tor Browser\Browser\Tor folder under the user’s Desktop.
 
 
-Confirms that installation produced Tor-related files on the Desktop.
+-Confirms that installation produced Tor-related files on the Desktop.
 
 
 
 2025-08-25 11:12:28 (UTC)
-Evidence shows that stwlab1 launched the Tor Browser (firefox.exe/tor.exe).
+
+-Evidence shows that stwlab1 launched the Tor Browser (firefox.exe/tor.exe).
 
 
-This is the first indication of Tor being opened and executed on the system.
+-This is the first indication of Tor being opened and executed on the system.
 
 
 
 2025-08-25 11:12:38 (UTC)
-A network connection was established from tor.exe (in the Desktop Tor Browser directory).
+
+-A network connection was established from tor.exe (in the Desktop Tor Browser directory).
 
 
-Remote IP: 37.120.178.238
+-Remote IP: 37.120.178.238
 
 
-Port: 9001 (a known Tor network port).
+-Port: 9001 (a known Tor network port).
 
 
-Action: ConnectionSuccess
+-Action: ConnectionSuccess
 
 
-This confirms the Tor client successfully connected to the Tor network.
+-This confirms the Tor client successfully connected to the Tor network.
 
 
-Additional connections over port 443 were also observed, consistent with Tor relays or encrypted traffic.
+-Additional connections over port 443 were also observed, consistent with Tor relays or encrypted traffic.
 
 
 
 2025-08-25 11:34:09 (UTC)
-A file named tor-shopping-list.txt was created on the Desktop.
+
+-A file named tor-shopping-list.txt was created on the Desktop.
 
 
-Suggests the user saved some personal note or data related to Tor usage.
+-Suggests the user saved some personal note or data related to Tor usage.
 
 ---
 
