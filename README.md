@@ -1,6 +1,7 @@
 ST Threat-Hunting Project
 
-<img width="400" src="https://github.com/user-attachments/assets/44bac428-01bb-4fe9-9d85-96cba7698bee" alt="Tor Logo with the onion and a crosshair on it"/>
+<img width="800" height="534" alt="image" src="https://github.com/user-attachments/assets/2200f8da-c6b4-4e8f-a870-c156a849a92e" />
+
 
 # Threat Hunt Report: Unauthorized TOR Usage
 - [Scenario Creation](https://github.com/steventucker56/threat-hunting-scenario-tor/blob/main/threat-hunting-scenario-tor-event-creation.md)
